@@ -2,7 +2,7 @@ export default {
   moduleFileExtensions: ['js', 'json', 'vue'],
   testEnvironment: 'jest-environment-jsdom',
   moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/src/components/$1'
+    '^@/(.*)$': '<rootDir>/src/$1'
   },
   "transform": {
     "^.+\\.js$": "babel-jest",
